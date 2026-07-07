@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KAIBE</title>
+    <meta
+      name="description"
+      content="KAIBE is a school management system for Antiguan schools. Attendance, Grades, homework, Report cards and Parent messaging, in one portal."
+    />
+    <meta name="theme-color" content="#192035" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="KAIBE" />
+    <meta
+      property="og:description"
+      content="Attendance, grades, homework, report cards and parent messaging in one portal, built for Antiguan schools."
+    />
+    <meta property="og:image" content="assets/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="assets/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="assets/icon-512.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,0..100;1,9..144,300..500,0..50&family=Geist:wght@300..600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- ============ NAV ============ -->
+    <header class="nav" data-nav>
+      <div class="shell nav__inner">
+        <a class="nav__brand" href="#top" aria-label="KAIBE home">
+          <img src="assets/kaibe-wordmark.png" alt="KAIBE" class="nav__logo" />
+        </a>
+        <nav class="nav__links" aria-label="Primary">
+          <a href="#roles" class="navlink">For schools</a>
+          <a href="#why" class="navlink">Why KAIBE</a>
+          <a href="#inside" class="navlink">Inside</a>
+          <a href="#pricing" class="navlink">Pricing</a>
+        </nav>
+        <a class="btn btn--sm" href="https://app.kaibe.ag/login">Sign in</a>
+        <button class="nav__menu" data-menu-toggle aria-label="Menu" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- ============ HERO ============ -->
+      <section class="hero">
+        <div class="hero__wash" aria-hidden="true"></div>
+        <div class="shell">
+          <div class="hero__grid">
+            <div class="hero__copy">
+              <p class="kicker reveal"> Built for you</p>
+              <h1 class="hero__title display reveal" data-delay="1">
+                Your whole school,<br />in one <em>tidy</em> place.
+              </h1>
+              <p class="hero__lede reveal" data-delay="2">
+                Attendance, grades, homework, report cards, messaging and more gathered all
+                in one place.
+              </p>
+              <div class="hero__actions reveal" data-delay="3">
+                <a class="btn" href="#contact">Request access</a>
+                <a class="textlink" href="#inside">See how it works &rarr;</a>
+              </div>
+            </div>
+
+            <figure class="hero__panel reveal" data-delay="2">
+              <img class="panel shot" src="assets/shot-dashboard.png" alt="The KAIBE teacher dashboard  attendance, notices and homework at a glance" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ROLES ============ -->
+      <section class="section roles" id="roles">
+        <div class="shell">
+          <div class="lead reveal">
+            <p class="kicker">One platform, every point of view</p>
+            <h2 class="display lead__title">Everyone in the school,<br />looking at the same day.</h2>
+          </div>
+
+          <div class="role-rows">
+            <article class="role-row reveal">
+              <figure class="role-row__media">
+                <img class="panel shot" src="assets/shot-dashboard.png" alt="A teacher's dashboard in KAIBE" />
+              </figure>
+              <div class="role-row__body">
+                <h3 class="role-row__name">Teachers</h3>
+                <p class="role-row__lede">The classroom, sorted by lunchtime.</p>
+                <ul class="role-row__feats">
+                  <li>Take the register in three taps</li>
+                  <li>Gradebook &amp; marks</li>
+                  <li>Homework with attachments</li>
+                  <li>Write &amp; publish report cards</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="role-row reveal">
+              <figure class="role-row__media">
+                <img class="panel shot" src="assets/shot-parent.png" alt="A parent's dashboard in KAIBE" />
+              </figure>
+              <div class="role-row__body">
+                <h3 class="role-row__name">Parents</h3>
+                <p class="role-row__lede">Their child's school day, on their phone.</p>
+                <ul class="role-row__feats">
+                  <li>Attendance &amp; marks at a glance</li>
+                  <li>This week's homework</li>
+                  <li>Report cards, the moment they're out</li>
+                  <li>A line to the class teacher</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="role-row reveal">
+              <figure class="role-row__media">
+                <img class="panel shot" src="assets/shot-student.png" alt="A student's dashboard in KAIBE" />
+              </figure>
+              <div class="role-row__body">
+                <h3 class="role-row__name">Students</h3>
+                <p class="role-row__lede">What's due, and how I'm doing.</p>
+                <ul class="role-row__feats">
+                  <li>Today at a glance</li>
+                  <li>The homework board</li>
+                  <li>Their own marks, simply</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="role-row reveal">
+              <figure class="role-row__media">
+                <img class="panel shot" src="assets/shot-admin.png" alt="The school office dashboard in KAIBE" />
+              </figure>
+              <div class="role-row__body">
+                <h3 class="role-row__name">Office &amp; Principal</h3>
+                <p class="role-row__lede">The whole school, on one screen.</p>
+                <ul class="role-row__feats">
+                  <li>People &amp; enrolment</li>
+                  <li>School-wide attendance &amp; results</li>
+                  <li>Publish report cards in bulk</li>
+                  <li>A complete audit trail</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="role-row reveal">
+              <figure class="role-row__media role-row__media--phone">
+                <img class="phone" src="assets/shot-mobile-app.png" alt="KAIBE running on a phone" />
+              </figure>
+              <div class="role-row__body">
+                <h3 class="role-row__name">Mobile ready</h3>
+                <p class="role-row__lede">The whole portal, in their pocket.</p>
+                <ul class="role-row__feats">
+                  <li>Runs beautifully on the phone everyone already has</li>
+                  <li>Nothing to download or install</li>
+                  <li>Every screen, fully responsive</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ WHY ============ -->
+      <section class="section why" id="why">
+        <div class="shell">
+          <div class="lead reveal">
+            <p class="kicker">Why choose KAIBE?</p>
+            <h2 class="display lead__title">Built for the way<br />the you really workk.</h2>
+          </div>
+
+          <div class="prose">
+            <div class="prose__row reveal">
+              <h3 class="prose__h">Your school, your portal.</h3>
+              <p class="prose__p">
+                Minimal setup, after that KAIBE becomes
+                <em>your</em> school. Everything you need at your fingertips 
+              </p>
+            </div>
+
+            <div class="prose__row prose__row--media reveal">
+              <div>
+                <h3 class="prose__h">Report cards, totally  painless.</h3>
+                <p class="prose__p">
+                  Marks flow straight into a clean, printable report card automatically. Preview
+                  it, then send instantly to the whole class all in one go, term
+                  after term, year after year without fail.
+                </p>
+              </div>
+              <figure class="prose__media">
+                <img class="panel shot" src="assets/shot-report.png" alt="A KAIBE report card, ready to publish to parents" />
+              </figure>
+            </div>
+
+            <div class="prose__row reveal">
+              <h3 class="prose__h">Private by design.</h3>
+              <p class="prose__p">
+                We take data privacy and security very seriously. 
+              </p>
+            </div>
+          </div>
+
+          <p class="aside reveal">
+            Attendance in seconds &nbsp;·&nbsp; Fully responsive design (AKA it runs like a dream on mobile) &nbsp;·&nbsp;  Instant messaging for staff and parents
+            &nbsp;·&nbsp; And your academic calendar, all built in.
+          </p>
+        </div>
+      </section>
+
+      <!-- ============ INSIDE / SHOWCASE ============ -->
+      <section class="section inside" id="inside">
+        <div class="shell">
+          <div class="lead reveal">
+            <p class="kicker">Inside KAIBE</p>
+            <h2 class="display lead__title">Clean enough to hand<br />to a busy teacher.</h2>
+          </div>
+
+          <figure class="showcase reveal">
+            <img class="panel shot" src="assets/shot-gradebook.png" alt="The KAIBE gradebook showing a class's marks" />
+            <figcaption>The gradebook. Enter a mark and it's saved everywhere that matters automatically.
+               Like the parent portal or even this terms report card. </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ============ PRICING ============ -->
+      <section class="section pricing" id="pricing">
+        <div class="shell pricing__inner reveal">
+          <p class="kicker">Pricing</p>
+          <h2 class="display pricing__title">Priced<br />On request.</h2>
+          <p class="pricing__body">
+            Every role is included standard, your branding and calendar come as standard,
+            and we onboard your school ourselves. Quick, easy and user friendly.
+          </p>
+          <a class="btn" href="#contact">Request pricing</a>
+        </div>
+      </section>
+
+      <!-- ============ CTA ============ -->
+      <section class="cta" id="contact">
+        <div class="shell cta__inner">
+          <p class="kicker kicker--light reveal">The next step</p>
+          <h2 class="display cta__title reveal" data-delay="1">Bring KAIBE<br />to your school.</h2>
+          <p class="cta__sub reveal" data-delay="2">
+            A short conversation, a tailored quote, and we'll help handle the setup.
+          </p>
+          <div class="cta__actions reveal" data-delay="3">
+            <a class="btn btn--light" href="mailto:hello@kaibe.ag?subject=KAIBE%20%E2%80%94%20access%20%26%20pricing">Join!</a>
+            <a class="textlink textlink--light" href="mailto:hello@kaibe.ag?subject=KAIBE%20walkthrough">Book a walkthrough &rarr;</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+      <div class="shell footer__inner">
+        <div class="footer__brand">
+          <img src="assets/kaibe-wordmark-light.png" alt="KAIBE" class="footer__logo" />
+          <p class="footer__tag">School Management for you.</p>
+        </div>
+        <nav class="footer__cols" aria-label="Footer">
+          <div class="footer__col">
+            <p class="footer__h">Platform</p>
+            <a href="#roles" class="footlink">For schools</a>
+            <a href="#why" class="footlink">Why KAIBE</a>
+            <a href="#inside" class="footlink">Inside</a>
+            <a href="#pricing" class="footlink">Pricing</a>
+          </div>
+          <div class="footer__col">
+            <p class="footer__h">Contact</p>
+            <a href="mailto:hello@kaibe.ag" class="footlink">hello@kaibe.ag</a>
+            <span class="footer__muted">kaibe.ag — coming soon</span>
+            <span class="footer__muted">Antigua &amp; Barbuda</span>
+          </div>
+        </nav>
+      </div>
+      <div class="shell footer__base">
+        <span>&copy; <span data-year>2026</span> KAIBE</span>
+        <a class="footlink" href="https://kimathi-halley.github.io/" target="_blank" rel="noopener">
+          Designed &amp; built by Halley &rarr;
+        </a>
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
