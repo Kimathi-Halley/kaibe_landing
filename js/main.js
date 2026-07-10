@@ -1,4 +1,4 @@
-/* KAIBE landing — light interactions (no deps). Product visuals are real
+/* KAIBE landing, light interactions (no deps). Product visuals are real
    screenshots (assets/shot-*.png); nothing is injected. */
 (() => {
   "use strict";

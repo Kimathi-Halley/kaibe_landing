@@ -1,5 +1,5 @@
 /* ============================================================
-   KAIBE — landing
+   KAIBE, landing
    Editorial & institutional. Fraunces + Geist. Paper + navy.
    Thin rules, generous space, one warm accent (sun) used sparingly.
    ============================================================ */
@@ -12,7 +12,7 @@
   --line-2:     #d8cfb6;
 
   --ink:        #14182b;
-  --ink-2:      #192035;   /* the mark's navy — dark sections */
+  --ink-2:      #192035;   /* the mark's navy, dark sections */
   --ink-soft:   rgba(20, 24, 43, 0.66);
   --ink-faint:  rgba(20, 24, 43, 0.40);
 
@@ -178,7 +178,7 @@ body::before {
 .shot { display: block; width: 100%; height: auto; }
 .prose__media img { max-width: 30rem; margin-inline: auto; }
 
-/* —— mini app (faithful KAIBE UI, clean placeholder data) —— */
+/* -- mini app (faithful KAIBE UI, clean placeholder data) -- */
 .m-app { display: flex; min-height: 340px; font-size: 12px; }
 .m-rail { flex: 0 0 130px; background: var(--surface); border-right: 1px solid var(--line); padding: 12px 10px; display: flex; flex-direction: column; gap: 2px; }
 .m-rail__logo { width: 26px; height: 26px; margin: 2px 0 12px 4px; }
@@ -226,7 +226,7 @@ body::before {
 .m-table td { padding: 9px 6px; border-bottom: 1px solid var(--line); }
 .m-final { color: var(--mound); font-weight: 700; }
 
-/* —— report card document mock —— */
+/* -- report card document mock -- */
 .rc { padding: 1.5rem 1.6rem; font-size: 12.5px; }
 .rc__head { display: flex; align-items: center; gap: 0.8rem; padding-bottom: 1rem; border-bottom: 1px solid var(--line); }
 .rc__crest { width: 38px; height: 38px; border-radius: 50%; background: var(--mound); color: #fff; display: grid; place-items: center; font-family: var(--font-display); font-weight: 600; font-size: 11px; }
@@ -245,7 +245,7 @@ body::before {
 .rc__foot::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--sun); }
 
 /* ============================================================
-   roles — editorial ledger (rules, not cards)
+   roles, editorial ledger (rules, not cards)
    ============================================================ */
 .role-rows { display: flex; flex-direction: column; gap: clamp(3.5rem, 7vw, 6rem); }
 .role-row { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 5vw, 4.5rem); align-items: center; }
@@ -255,7 +255,7 @@ body::before {
 .role-row__feats { margin-top: 1.5rem; display: flex; flex-direction: column; gap: 0.7rem; }
 .role-row__feats li { position: relative; padding-left: 1.5rem; color: var(--ink); font-size: clamp(1rem, 0.97rem + 0.2vw, 1.1rem); }
 .role-row__feats li::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 0.7rem; height: 2px; background: var(--sun); }
-/* "Mobile ready" row — a phone-shaped screenshot instead of a wide panel */
+/* "Mobile ready" row, a phone-shaped screenshot instead of a wide panel */
 .role-row__media--phone { display: flex; justify-content: center; }
 .phone {
   display: block; width: 100%; max-width: 14rem; height: auto;
@@ -264,7 +264,7 @@ body::before {
 }
 
 /* ============================================================
-   why — editorial prose
+   why, editorial prose
    ============================================================ */
 .prose { display: flex; flex-direction: column; gap: clamp(2.75rem, 5vw, 4.5rem); }
 .prose__row--media { display: grid; grid-template-columns: 1fr 0.9fr; gap: clamp(2rem, 5vw, 4rem); align-items: center; }
